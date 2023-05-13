@@ -101,6 +101,7 @@ int main(int argc, char **argv)
 	//now we have a system.
 	#ifdef DEBUG
 	printSystem(stdout);
+	printf("\n\n\n\n ----------------\n\n\n\n");
 	#endif
 	for (t_now=0;t_now<DURATION;t_now+=INTERVAL){
 		compute();
